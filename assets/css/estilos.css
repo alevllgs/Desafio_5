@@ -1,0 +1,89 @@
+/* estilos.css */
+body {
+    background-color: #f8f9fa;
+}
+h1{
+    margin: 50px;
+}
+.seccion1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.titulo_barra {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+form {
+    gap: 10px;
+}
+
+.seccion2 {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.seccion2 div {
+    flex: 1;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.div21 {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+       gap: 60px;
+}
+
+
+
+.div22 button.delete-button {
+    background-color: transparent;
+    color: red;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.div22 button.delete-button:hover {
+    text-decoration: underline;
+}
+
+.task-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.task-item input[type="checkbox"] {
+    margin-bottom: 0;
+}
+
+#TareaList div:not(.claseEspecifica) {
+  
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border: 1px solid #ddd; 
+
+}
+
+#TareaList div:not(.claseEspecifica) p {
+    flex: 0 0 15%;
+}
+
+#TareaList div:not(.claseEspecifica) p:nth-child(2) {
+    flex: 1;
+}
